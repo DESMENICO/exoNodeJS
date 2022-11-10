@@ -3,7 +3,6 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-const page1 = path.join("page.html")
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
